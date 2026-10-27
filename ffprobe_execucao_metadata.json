@@ -1,0 +1,10 @@
+{
+  "ferramenta": "ffprobe",
+  "versao_exata": "ffprobe version 7.1 Copyright (c) 2007-2024 the FFmpeg developers",
+  "sistema_operacional": "Windows 11 (10.0.26300, AMD64)",
+  "comando_executado": "ffprobe -v quiet -print_format json -show_format -show_streams trabalho/copia_trabalho_artigo.mp3",
+  "alvo": "trabalho/copia_trabalho_artigo.mp3 (cópia de trabalho)",
+  "sha256_arquivo_alvo": "526cee63cc98221a84a0f9578fa12b02a0350cd5a6ae9c4352caf039e374766d",
+  "sha256_saida_json": "be4ae1c5191c2d6e91fbf0611ee0c3cde87dfcd50c09f56dc656077bb7d1fab5",
+  "data_execucao": "2026-10-27T11:09:00-03:00"
+}

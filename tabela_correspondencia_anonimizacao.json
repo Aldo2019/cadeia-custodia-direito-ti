@@ -1,0 +1,128 @@
+{
+  "aviso_confidencialidade": "DOCUMENTO INTERNO E CONFIDENCIAL - NÃO DEVE SER PUBLICADO NO ARTIGO CIENTÍFICO. Este arquivo mantém a correspondência unívoca entre os dados reais do procedimento pericial e os identificadores anonimizados utilizados no manuscrito.",
+  "data_geracao": "2026-10-27T11:10:00-03:00",
+  "responsavel_anonimizacao": "Equipe de Pesquisa Forense / Protocolo Direito & TI",
+  "mapeamentos": {
+    "identificadores_processuais": [
+      {
+        "dado_real": "SAD 109437/2026 6º BPM",
+        "rotulo_anonimizado": "Procedimento Administrativo [CASO-01]",
+        "categoria": "Número de Processo / Procedimento",
+        "descricao": "Procedimento correcional de apuração"
+      },
+      {
+        "dado_real": "IPM-2026-001",
+        "rotulo_anonimizado": "Procedimento Preliminar [CASO-01-REF]",
+        "categoria": "Número de Processo / Referência",
+        "descricao": "Identificador inicial preliminar registrado em log de teste"
+      }
+    ],
+    "orgaos_e_instituicoes": [
+      {
+        "dado_real": "Corregedoria da Polícia Militar de Minas Gerais / CPM-PMMG",
+        "rotulo_anonimizado": "Órgão Correcional Central [ORGAO-01]",
+        "categoria": "Órgão Pericial Superior",
+        "descricao": "Corregedoria-Geral mantenedora do laboratório pericial"
+      },
+      {
+        "dado_real": "6º BPM",
+        "rotulo_anonimizado": "Unidade Operacional Requisitante [UNIDADE-01]",
+        "categoria": "Unidade Requisitante",
+        "descricao": "Batalhão de origem da requisição"
+      },
+      {
+        "dado_real": "Seção de Criminalística - CPM2",
+        "rotulo_anonimizado": "Setor Pericial Especializado [LAB-FORENSE-01]",
+        "categoria": "Laboratório Pericial",
+        "descricao": "Seção técnica responsável pelas análises de evidências digitais"
+      }
+    ],
+    "pessoas_e_cargos": [
+      {
+        "dado_real": "Analista / Perito da Seção de Criminalística CPM2",
+        "rotulo_anonimizado": "Perito Oficial Responsável [PERITO-01]",
+        "categoria": "Profissional Forense",
+        "descricao": "Perito criminal / analista de áudio e imagem"
+      },
+      {
+        "dado_real": "PMMG (Usuário de SO)",
+        "rotulo_anonimizado": "Operador Forense [OPERADOR-01]",
+        "categoria": "Usuário de Sistema",
+        "descricao": "Conta de usuário do sistema operacional da estação forense"
+      }
+    ],
+    "evidencias_e_arquivos": [
+      {
+        "dado_real": "AUD-20260426-WA0006.mp3",
+        "rotulo_anonimizado": "EVIDENCIA_01.mp3 (ou Evidência [EVID-01])",
+        "categoria": "Arquivo de Evidência Original",
+        "hash_sha256": "526cee63cc98221a84a0f9578fa12b02a0350cd5a6ae9c4352caf039e374766d",
+        "descricao": "Arquivo digital recebido para exame de autenticidade e integridade"
+      },
+      {
+        "dado_real": "C:\\Users\\PMMG\\Desktop\\Direito&TI\\Analise_de_Vídeo\\entrada\\original\\AUD-20260426-WA0006.mp3",
+        "rotulo_anonimizado": "[DIRETORIO_CUSTODIA]/original/EVIDENCIA_01.mp3",
+        "categoria": "Caminho no Sistema de Arquivos",
+        "descricao": "Local físico/lógico de preservação original sob custódia estrita"
+      },
+      {
+        "dado_real": "amostra_trabalho.wav",
+        "rotulo_anonimizado": "copia_trabalho_pcm.wav",
+        "categoria": "Arquivo de Trabalho",
+        "descricao": "Decodificação em PCM 16-bit linear para processamento não destrutivo"
+      }
+    ],
+    "datas_e_marcos_temporais": [
+      {
+        "dado_real": "2026-04-26",
+        "rotulo_anonimizado": "D0 (Data nominal constante no nome do arquivo)",
+        "categoria": "Data Estimada / Inscrita",
+        "observacao": "Padrão YYYYMMDD do aplicativo de mensagens WhatsApp"
+      },
+      {
+        "dado_real": "2026-09-17T15:08:11 UTC",
+        "rotulo_anonimizado": "D0 + 144 dias, 15:08:11 UTC",
+        "categoria": "Timestamp mtime (Modificação no Sistema de Arquivos)",
+        "observacao": "Última modificação registrada antes da entrega formal"
+      },
+      {
+        "dado_real": "2026-10-06T16:46:30 UTC",
+        "rotulo_anonimizado": "D0 + 163 dias, 16:46:30 UTC",
+        "categoria": "Timestamp birthtime/ctime (Ingresso no Armazenamento do Laboratório)",
+        "observacao": "Gravação do arquivo no repositório local da estação pericial"
+      },
+      {
+        "dado_real": "2026-10-06T17:22:59 UTC",
+        "rotulo_anonimizado": "D0 + 163 dias, 17:22:59 UTC",
+        "categoria": "Registro Formal de Entrada e Abertura do Procedimento",
+        "observacao": "Início da formalização pericial (Etapa 00)"
+      },
+      {
+        "dado_real": "2026-10-06T17:23:02 UTC a 2026-10-06T17:26:45 UTC",
+        "rotulo_anonimizado": "D0 + 163 dias, 17:23:02 UTC até 17:26:45 UTC",
+        "categoria": "Janela de Processamento e Análise Pericial",
+        "observacao": "Execução automatizada do pipeline de 26 etapas"
+      },
+      {
+        "dado_real": "2026-10-06T17:26:43 UTC",
+        "rotulo_anonimizado": "D0 + 163 dias, 17:26:43 UTC",
+        "categoria": "Data de Emissão do Laudo Oficial",
+        "observacao": "Finalização e assinatura do relatório pericial oficial"
+      },
+      {
+        "dado_real": "2026-10-27",
+        "rotulo_anonimizado": "D0 + 184 dias (Data de Reconstrução / Auditoria Acadêmica)",
+        "categoria": "Data de Reconstrução de Custódia Encadeada",
+        "observacao": "Extração atual e auditoria de integridade para a Seção 6 do artigo"
+      }
+    ],
+    "hardware_e_ambiente": [
+      {
+        "dado_real": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel / 31.71 GB RAM / Windows 11 (10.0.26200)",
+        "rotulo_anonimizado": "Estação Forense [ESTACAO-LAB-01] (CPU x86_64 multinúcleo, 32 GB RAM, SO Windows 11 Pro 64-bit)",
+        "categoria": "Ambiente de Execução",
+        "descricao": "Hardware pericial dedicado"
+      }
+    ]
+  }
+}
