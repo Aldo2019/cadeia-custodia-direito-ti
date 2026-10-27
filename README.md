@@ -1,6 +1,6 @@
-# Protocolo verificável de cadeia de custódia para evidência digital audiovisual
+# Protocolo verificável de cadeia de custódia para evidência digital 
 
-Material suplementar do artigo **"Cadeia de custódia da evidência audiovisual: protocolo verificável da requisição pericial à defesa"**, submetido à revista *Direito & TI*.
+Material suplementar do artigo **"Cadeia de custódia da evidência digital: protocolo verificável da requisição pericial à defesa"**, submetido à revista *Direito & TI*.
 
 Este repositório permite que qualquer pessoa **confira de forma independente** o registro de custódia encadeado e o manifesto de hashes do caso apresentado na Seção 6 do artigo, sem acesso à evidência original.
 
