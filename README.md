@@ -78,6 +78,38 @@ Cada evento traz o campo de procedência (`registro original` ou `reconstruído`
 - O nome original do arquivo foi substituído por `EVIDENCIA_01.mp3`.
 - A tabela de correspondência é mantida apenas localmente pelos autores e não faz parte deste repositório.
 
+### Entendendo a Escala Temporal Relativa ($D_0$) e a Constante de 163 Dias
+
+Para proteger o sigilo do processo original sem perder o rigor cronológico da perícia, todas as datas reais do caso foram convertidas em uma **escala de tempo relativa**, tendo como ponto de partida o marco **$D_0$**. 
+
+Ao longo dos documentos deste repositório, a referência recorrente a **$D_0 + 163\text{ dias}$** representa o exato momento em que a evidência deu entrada no laboratório pericial, encerrando um período de **163 dias sem custódia formal documentada** (a chamada *Lacuna Pré-Laboratorial*).
+
+#### 1. Como foi calculado o intervalo de 163 dias?
+O cálculo decorre da diferença em dias corridos entre a data nominal gravada no nome do arquivo original e a data de seu recebimento oficial no laboratório:
+
+| Marco Relativo | Data Real de Referência | Evento Cronológico na Cadeia de Custódia |
+| :--- | :---: | :--- |
+| **$D_0$** | `26/04/2026` | **Data nominal da mídia:** extraída da nomenclatura original do arquivo (`AUD-20260426-WA0006.mp3`, padrão `AAAAMMDD` do WhatsApp). |
+| **$D_0 + 144\text{ dias}$** | `17/09/2026` | **Última modificação externa (`mtime`):** data de modificação registrada no sistema de arquivos antes do envio à perícia (`15:08:11 UTC`). |
+| **$D_0 + 163\text{ dias}$** | `06/10/2026` | **Ingresso no laboratório e exame pericial:** data em que o arquivo foi recebido no armazenamento pericial (`16:46:30 UTC`), teve seu hash inicial fixado (`17:23:01 UTC`), passou pela análise acústica e resultou na emissão do laudo oficial (`17:26:43 UTC`). |
+| **$D_0 + 184\text{ dias}$** | `27/10/2026` | **Auditoria acadêmica:** data da extração reprodutível de metadados e validação criptográfica para o artigo científico. |
+
+**Memória de cálculo dos dias corridos (`26/04/2026` a `06/10/2026`):**
+* **Abril:** 4 dias restantes (26 a 30/04)
+* **Maio:** 31 dias
+* **Junho:** 30 dias
+* **Julho:** 31 dias
+* **Agosto:** 31 dias
+* **Setembro:** 30 dias
+* **Outubro:** 6 dias (01 a 06/10)
+* **Total:** `4 + 31 + 30 + 31 + 31 + 30 + 6 = 163 dias`
+
+#### 2. Qual é a importância pericial e jurídica desses 163 dias?
+No estudo de caso ([secao_6_artigo_direito_ti.md](secao_6_artigo_direito_ti.md)), esse intervalo cumpre duas funções essenciais:
+
+1. **Preservação do Sigilo com Precisão Analítica:** Permite que o leitor audite a exata duração de cada etapa pericial sem expor o calendário civil sensível do procedimento disciplinar.
+2. **Demonstração Prática da Quebra da Cadeia Antecedente (Ramo C da Árvore de Decisão):** Evidencia que o arquivo circulou por **163 dias** entre sua suposta criação ($D_0$) e sua apresentação oficial ao Estado ($D_0 + 163\text{ dias}$) sem termo de coleta, sem logs de transmissão e sem código hash de origem. Como consequência técnica e jurídica, **a integridade física da mídia só pode ser matematicamente garantida a partir do 163º dia**, cabendo ao perito declarar formalmente que a integridade histórica prévia ao ingresso no laboratório é inverificável.
+
 ## Uso do protocolo em outros casos
 
 O script serve para qualquer registro que siga a mesma estrutura:
